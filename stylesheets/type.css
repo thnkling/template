@@ -1,6 +1,8 @@
 /* symbols */
 
 /* mixins */
+.clearfix:after { content: ' '; clear: both; display: block; font-size: 0; height: 1px; visibility: hidden; }
+* html .clearfix, *:first-child+html .clearfix { zoom: 1; }
 
 /* type */
 html { font-family: Helvetica, Arial, sans-serif; }

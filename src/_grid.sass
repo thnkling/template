@@ -10,7 +10,7 @@
 !grid_size = !column_width * !columns + (!column_margin * (!columns - 1))
  
 // Grid container
-#grid
+=grid
   :width = !grid_size
  
 // Columns
@@ -29,7 +29,3 @@
   .push_#{!i}, .push_#{!column_width * !i + (!column_margin * (!i - 1))}
     //:margin-left = !column_width * !i + (!column_margin * (!i - 1))
     :margin-left = (!column_width + !column_margin) * !i
-
-
-
-

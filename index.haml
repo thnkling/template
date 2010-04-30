@@ -6,9 +6,9 @@
   %body
     #shell
       #head
-        %h1#logo
-          %a{ :href => '#' }
-            %span
+        %a{ :href => '/', id => 'logo', :title => 'Title' }
+          %span
+            Title
         %ul#nav_top
           %li
             %a{ :href => '#' } Link
@@ -16,22 +16,13 @@
             %a{ :href => '#' } Link
           %li
             %a{ :href => '#' } Link
-        %ul#nav_primary
-          %li
-            %a{ :href => '#' } Link
-          %li
-            %a{ :href => '#' } Link
-          %li
-            %a{ :href => '#' } Link
-          %li
-            %a{ :href => '#' } Link
-          %li
-            %a{ :href => '#' } Link
       #content
-        .column.col_220
-        .column.col_460
-        .clear
-      #foot
+        .col_3
+        .col_3
+        .clearfix
+      .push
+    #foot
+      .foot_content
         %ul#nav_foot
           %li
             %a{ :href => '#' } Link

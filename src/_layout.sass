@@ -1,11 +1,32 @@
 /* layout */
 html, body
+  :height 100%
+  :min-height 100%
+  :text-align center
   +mp
 
 #shell
+  :border 1px solid #000
   +grid
-
-#head
-
+  :height auto !important
+  :height 100%
+  :margin 0 auto -200px
+  :min-height 100%
+  :text-align left
+  #head
+    a.logo
+    span
+    ul#nav_top
+  #content
+  .push
+    :height 200px
 #foot
+  :background-color #ccc
+  :height 200px
+  :text-align center
+  .foot_content
+    :background-color #666
+    :margin 0 auto
+    :text-align left
+    :width 940px
 
